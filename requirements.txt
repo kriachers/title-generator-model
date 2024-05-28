@@ -1,0 +1,10 @@
+pandas
+numpy
+transformers
+datasets
+sentencepiece
+evaluate
+rouge_score
+torch
+accelerate
+protobuf
