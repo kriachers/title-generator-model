@@ -18,8 +18,8 @@ The training used a truncated version of the Medium Articles Dataset. The origin
 1. **Clone the repository:**
 
    ```bash
-   git clone <https://github.com/kriachers/title-generator-model.git>
-   cd <title-generator-model>
+   git clone https://github.com/kriachers/title-generator-model.git
+   cd title-generator-model
    ```
 
 2. **Install the required packages:**
