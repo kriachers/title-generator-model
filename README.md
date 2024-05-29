@@ -11,7 +11,7 @@ This project contains code for a T5-small model ([link](https://huggingface.co/g
 
 ## Dataset for Training
 
-The training used a truncated version of the Medium Articles Dataset ([link]]https://www.kaggle.com/datasets/fabiochiusano/medium-articles). The original dataset, which consists of 150,000 rows, was truncated to 20,000 rows and saved as `small_medium_articles.csv`.
+The training used a truncated version of the Medium Articles Dataset ([link]https://www.kaggle.com/datasets/fabiochiusano/medium-articles). The original dataset, which consists of 150,000 rows, was truncated to 20,000 rows and saved as `small_medium_articles.csv`.
 
 ## Installation and Usage
 
