@@ -1,6 +1,6 @@
-# Title Generator for Articles
+# Title Generator for Articles: Fine-tuned T5-small Model
 
-This project contains code for a T5-small model fine-tuned for the task of generating titles for articles.
+This project contains code for a T5-small model ([link](https://huggingface.co/google/t5-small)) fine-tuned to generate titles for articles.
 
 ## Project Content:
 
@@ -11,7 +11,7 @@ This project contains code for a T5-small model fine-tuned for the task of gener
 
 ## Dataset for Training
 
-The training used a truncated version of the Medium Articles Dataset. The original dataset, which consists of 150,000 rows, was truncated to 20,000 rows and saved as `small_medium_articles.csv`.
+The training used a truncated version of the Medium Articles Dataset ([link]([https://huggingface.co/google/t5-small)](https://www.kaggle.com/datasets/fabiochiusano/medium-articles)). The original dataset, which consists of 150,000 rows, was truncated to 20,000 rows and saved as `small_medium_articles.csv`.
 
 ## Installation and Usage
 
