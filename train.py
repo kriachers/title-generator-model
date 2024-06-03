@@ -74,3 +74,19 @@ MODEL SAVE
 """
 
 trainer.save_model(output_dir)
+
+"""
+MODEL EVALUATE on eval_dataset parameter
+"""
+
+eval_results = trainer.evaluate()
+print("Evaluation Results:", eval_results)
+
+"""
+TEST
+"""
+
+print("TEST RESULTS")
+
+test_results = trainer.evaluate(eval_dataset=tokenized_title_dataset['test'])
+print(test_results)
